@@ -1,0 +1,1 @@
+(function(){window.JQUERY_UI_EXTRAS_LOADED=1}).call(this),function(){var a;if(!window.JQUERY_UI_EXTRAS_LOADED||!$.fn.datepicker)throw new Error("jquery.ui.datepicker.js required");a=$.fn.datepicker,$.fn.datepicker=function(b){return a.call(this,$.extend({"isRTL":$("body").hasClass("right-to-left")},b||{}))}}.call(this);
